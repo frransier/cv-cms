@@ -12,6 +12,10 @@ export default {
       type: "richText",
     },
     {
+      name: "company",
+      type: "company",
+    },
+    {
       name: "roles",
       type: "array",
       of: [{ type: "string" }],

@@ -8,6 +8,11 @@ export default {
       type: "string",
     },
     {
+      name: "employer",
+      type: "reference",
+      to: [{ type: "job" }],
+    },
+    {
       name: "status",
       type: "string",
     },

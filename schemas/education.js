@@ -8,6 +8,10 @@ export default {
       type: "string",
     },
     {
+      name: "school",
+      type: "string",
+    },
+    {
       name: "description",
       type: "richText",
     },

@@ -28,7 +28,7 @@ export default {
     {
       name: "projects",
       type: "array",
-      of: [{ type: "reference", to: { type: "projects" } }],
+      of: [{ type: "reference", to: { type: "project" } }],
     },
   ],
 };
