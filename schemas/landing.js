@@ -11,6 +11,10 @@ export default {
       name: "description",
       type: "string",
     },
+    // {
+    //   name: "details",
+    //   type: "details",
+    // },
     {
       name: "about",
       type: "richText",
