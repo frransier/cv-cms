@@ -22,7 +22,7 @@ export default {
     },
     {
       name: "description",
-      type: "richText",
+      type: "text",
     },
     {
       name: "stack",

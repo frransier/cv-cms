@@ -11,13 +11,18 @@ export default {
       name: "description",
       type: "string",
     },
-    // {
-    //   name: "details",
-    //   type: "details",
-    // },
+    {
+      name: "details",
+      type: "details",
+    },
     {
       name: "about",
-      type: "richText",
+      type: "text",
+    },
+    {
+      name: "stack",
+      type: "array",
+      of: [{ type: "stack" }],
     },
     {
       name: "jobs",

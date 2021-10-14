@@ -7,6 +7,8 @@ import landing from "./landing";
 import project from "./project";
 import richText from "./richText";
 import company from "./company";
+import details from "./details";
+import stack from "./stack";
 
 export default createSchema({
   name: "default",
@@ -17,5 +19,7 @@ export default createSchema({
     project,
     richText,
     company,
+    details,
+    stack,
   ]),
 });
