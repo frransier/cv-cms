@@ -10,5 +10,9 @@ export default {
       name: "description",
       type: "text",
     },
+    {
+      name: "url",
+      type: "string",
+    },
   ],
 };
